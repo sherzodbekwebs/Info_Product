@@ -11,13 +11,41 @@ body {
 }
 
 .app-containerr {
-    max-width: 1300px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 30px 20px;
+    padding: 0px 20px 20px;
     margin-left: auto;
     margin-right: auto;
 }
 
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff; /* Orqa fon rangi (oq) */
+  padding: 15px 20px;
+  z-index: 1000; /* Hamma narsadan ustun turishi uchun */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Pastga soya berish */
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: -20px; /* Agar container paddingi bo'lsa, chetga yopishtirish uchun */
+  margin-right: -20px;
+}
+
+/* Tugmani o'zining stili (agar sizda hali bo'lmasa) */
+.back-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #1e293b;
+  font-weight: 600;
+  transition: color 0.2s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
 .header-title {
     text-align: center;
@@ -115,7 +143,6 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    margin-bottom: 20px;
     padding: 10px 20px;
     background: #1e293b;
     color: white;
