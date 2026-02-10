@@ -23,7 +23,7 @@ const CatalogPage = () => {
       <div className="truck-grid">
         {filteredTrucks.map(truck => (
           <div className="truck-card" key={truck.id} onClick={() => navigate(`/truck/${truck.id}`)} >
-            <img src={truck.img} alt={truck.name} />
+            <img src={truck.img} alt="img" />
             <div className="card-info">
             </div>
           </div>
