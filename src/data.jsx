@@ -37,7 +37,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k1.png"
+        imgk: "/public/images/k1.png"
       },
       {
         name: "MAN TGS(X) 18.440 BLS",
@@ -56,7 +56,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k2.png"
+        imgk: "/public/images/k2.png"
       },
       {
         name: "SITRAK",
@@ -75,7 +75,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k3.png"
+        imgk: "/public/images/k3.png"
       },
       {
         name: "IVECO S-WAY",
@@ -94,7 +94,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k4.png"
+        imgk: "/public/images/k4.png"
       }
     ]
   },
@@ -125,7 +125,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k5.png"
+        imgk: "/public/images/k5.png"
       }
     ]
   },
@@ -168,7 +168,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k6.png"
+        imgk: "/public/images/k6.png"
       },
       {
         name: "HOWO T9H CNG импорт",
@@ -187,7 +187,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k7.png"
+        imgk: "/public/images/k7.png"
       },
       {
         name: "Shacman X5000",
@@ -206,7 +206,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабыe_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k8.png"
+        imgk: "/public/images/k8.png"
       }
     ]
   },
@@ -239,7 +239,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k9.png"
+        imgk: "/public/images/k9.png"
       },
       {
         name: "KRANTAS самосвал 8 м3 4х2",
@@ -259,7 +259,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k10.png"
+        imgk: "/public/images/k10.png"
       },
       {
         name: "SINOTRUCK Homan-H3",
@@ -279,7 +279,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k11.png"
+        imgk: "/public/images/k11.png"
       },
       {
         name: "FAW Tiger VH VUM3120 4x2",
@@ -299,7 +299,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k12.png"
+        imgk: "/public/images/k12.png"
       }
     ]
   },
@@ -332,7 +332,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k13.png"
+        imgk: "/public/images/k13.png"
       }
     ]
   },
@@ -365,7 +365,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k14.png"
+        imgk: "/public/images/k14.png"
       },
       {
         name: "Sinotruk Howo 25 т. CNG",
@@ -385,7 +385,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабыe_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k15.png"
+        imgk: "/public/images/k15.png"
       },
       {
         name: "Sinotruk HOWO T7S",
@@ -405,7 +405,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k16.png"
+        imgk: "/public/images/k16.png"
       }
     ]
   },
@@ -458,7 +458,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k17.png"
+        imgk: "/public/images/k17.png"
       }
     ]
   },
@@ -491,7 +491,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k18.png"
+        imgk: "/public/images/k18.png"
       }
     ]
   },
@@ -544,7 +544,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k19.png"
+        imgk: "/public/images/k19.png"
       }
     ]
   },
@@ -576,7 +576,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k20.png"
+        imgk: "/public/images/k20.png"
       },
       {
         name: "Hyundai Mighty EX-8 18 м",
@@ -595,7 +595,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k21.png"
+        imgk: "/public/images/k21.png"
       },
       {
         name: "FAW Tiger V VUM1110 22 м",
@@ -614,7 +614,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k22.png"
+        imgk: "/public/images/k22.png"
       }
     ]
   },
@@ -646,7 +646,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k23.png"
+        imgk: "/public/images/k23.png"
       },
       {
         name: "FAW Tiger V VUM1110 28 м",
@@ -665,7 +665,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k24.png"
+        imgk: "/public/images/k24.png"
       },
       {
         name: "FAW JUHE GKS30 30,5 м",
@@ -684,7 +684,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k25.png"
+        imgk: "/public/images/k25.png"
       },
       {
         name: "KRANTAS автовышка 28 м",
@@ -703,7 +703,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k26.png"
+        imgk: "/public/images/k26.png"
       }
     ]
   },
@@ -735,7 +735,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k27.png"
+        imgk: "/public/images/k27.png"
       },
       {
         name: "ISUZU FVR 34 Q",
@@ -754,7 +754,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k28.png"
+        imgk: "/public/images/k28.png"
       },
       {
         name: "FAW Tiger V 5 т",
@@ -773,7 +773,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k29.png"
+        imgk: "/public/images/k29.png"
       }
     ]
   },
@@ -805,7 +805,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k30.png"
+        imgk: "/public/images/k30.png"
       },
       {
         name: "KRANTAS с буровой установкой",
@@ -824,22 +824,22 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k31.png"
+        imgk: "/public/images/k31.png"
       }
     ]
   },
   {
-    id: "19", category: "I", 
-    name: "Автокран 25тн. вылет стрелы 28м на базе шасси КАМАЗ 43118-1048-10 6х6 (BOB LIFT)", 
-    price: "1 937 600 000 сум", 
-    engine: "x", 
-    power: "x", 
-    fuel: "Дизель", 
-    tank: "x", 
-    formula: "6х6", 
-    load: "x", 
-    Объём: "x", 
-    package: "Минимальная комплектация", 
+    id: "19", category: "I",
+    name: "Автокран 25тн. вылет стрелы 28м на базе шасси КАМАЗ 43118-1048-10 6х6 (BOB LIFT)",
+    price: "1 937 600 000 сум",
+    engine: "x",
+    power: "x",
+    fuel: "Дизель",
+    tank: "x",
+    formula: "6х6",
+    load: "x",
+    Объём: "x",
+    package: "Минимальная комплектация",
     img: "/images/199.png",
     Наличие_фирменного_сервиса: "x",
     Доступность_ЗЧ: "x",
@@ -877,7 +877,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k32.png"
+        imgk: "/public/images/k32.png"
       },
       {
         name: "KRANTAS 4x2 АЦВ-8",
@@ -897,7 +897,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k33.png"
+        imgk: "/public/images/k33.png"
       }
     ]
   },
@@ -929,7 +929,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k34.png"
+        imgk: "/public/images/k34.png"
       },
       {
         name: "KRANTAS АЦ-12 (Вариант 2)",
@@ -949,7 +949,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k35.png"
+        imgk: "/public/images/k35.png"
       }
     ]
   },
@@ -996,7 +996,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k36.png"
+        imgk: "/public/images/k36.png"
       }
     ]
   },
@@ -1030,7 +1030,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k37.png",
+        imgk: "/public/images/k37.png",
       }
     ]
   },
@@ -1084,7 +1084,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k38.png",
+        imgk: "/public/images/k38.png",
       },
       {
         name: "ISUZU FVR 34K",
@@ -1104,7 +1104,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k39.png",
+        imgk: "/public/images/k39.png",
       },
       {
         name: "MAN TGM 18.290",
@@ -1124,7 +1124,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k40.png",
+        imgk: "/public/images/k40.png",
       }
     ]
   },
@@ -1188,7 +1188,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k41.png",
+        imgk: "/public/images/k41.png",
       }
     ]
   },
@@ -1221,7 +1221,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k42.png",
+        imgk: "/public/images/k42.png",
       }
     ]
   },
@@ -1253,7 +1253,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k43.png",
+        imgk: "/public/images/k43.png",
       }
     ]
   },
@@ -1286,7 +1286,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k44.png",
+        imgk: "/public/images/k44.png",
       }
     ]
   },
@@ -1318,7 +1318,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k45.png",
+        imgk: "/public/images/k45.png",
       },
       {
         name: "Ассенизатор ISUZU NPR75K",
@@ -1338,7 +1338,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k46.png",
+        imgk: "/public/images/k46.png",
       },
       {
         name: "Ассенизатор FAW Tiger VH VUM1110 6 m3",
@@ -1358,7 +1358,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k47.png",
+        imgk: "/public/images/k47.png",
       }
     ]
   },
@@ -1400,7 +1400,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k48.png",
+        imgk: "/public/images/k48.png",
       },
       {
         name: "MAN TGM 13.290. 20+1 мест",
@@ -1419,7 +1419,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k49.png",
+        imgk: "/public/images/k49.png",
       },
       {
         name: "MAN TGM 13.290. 20+5 мест",
@@ -1438,7 +1438,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k50.png",
+        imgk: "/public/images/k50.png",
       }
     ]
   },
@@ -1470,7 +1470,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k51.png",
+        imgk: "/public/images/k51.png",
       },
       {
         name: "SINOTRUK Homan-H3 (Мусоровоз)",
@@ -1490,7 +1490,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k52.png",
+        imgk: "/public/images/k52.png",
       },
       {
         name: "FAW Tiger V 8 м3 (Мусоровоз)",
@@ -1510,7 +1510,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k53.png",
+        imgk: "/public/images/k53.png",
       },
       {
         name: "Hyundai Mighty EX-8 (Мусоровоз)",
@@ -1530,7 +1530,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k54.png",
+        imgk: "/public/images/k54.png",
       }
     ]
   },
@@ -1569,7 +1569,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k55.png",
+        imgk: "/public/images/k55.png",
       },
       {
         name: "Полуприцеп самосвальный 30м3 CIMC",
@@ -1592,7 +1592,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k56.png",
+        imgk: "/public/images/k56.png",
       }
     ]
   },
@@ -1701,7 +1701,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k57.png",
+        imgk: "/public/images/k57.png",
       },
       {
         name: "Полуприцеп тентовый 91м3 JUNTON",
@@ -1724,7 +1724,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/k58.png",
+        imgk: "/public/images/k58.png",
       }
     ]
   },
@@ -1850,7 +1850,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/jac1.png",
+        imgk: "/public/images/jac1.png",
       },
       {
         name: "Kia BONGO Super CUB",
@@ -1870,7 +1870,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/jac2.png",
+        imgk: "/public/images/jac2.png",
       },
       {
         name: "Shineray T50",
@@ -1890,7 +1890,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/jac3.png",
+        imgk: "/public/images/jac3.png",
       },
       {
         name: "Foton Truck Mate II D1 бортовой",
@@ -1910,7 +1910,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/jac4.png",
+        imgk: "/public/images/jac4.png",
       }
     ]
   },
@@ -1942,7 +1942,7 @@ export const TRUCKS_DATA = [
         Стоимость_владения_в_год: "x",
         Слабые_стороны: "x",
         Предложения: "x",
-        imgk: "../public/images/jac5.png",
+        imgk: "/public/images/jac5.png",
       }
     ]
   },
