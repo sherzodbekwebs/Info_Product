@@ -31,7 +31,7 @@ const CatalogPage = () => {
   );
 };
 
-// --- 2-SAHIFA: TRUCK DETAILS (KONKURENTLAR KARTALARI QO'SHILDI) ---
+// --- 2-SAHIFA: TRUCK DETAILS (SHASSI UCHUN YUK KO'TARISH OLIB TASHLANDI) ---
 const TruckDetails = () => {
   const { id } = useParams();
   const truck = TRUCKS_DATA.find(t => t.id === id);
@@ -70,7 +70,7 @@ const TruckDetails = () => {
                 <b>Топливо</b> <span>{truck.fuel}</span>
               </div>
             )}
-            {truck.tank && truck.tank !== "x" && (
+            {truck.tank && (truck.tank !== "x" || truck.category === "7") && (
               <div className="spec-card">
                 <Gauge size={20} color="#64748b" />
                 <b>Объем бака</b> <span>{truck.tank}</span>
@@ -104,10 +104,14 @@ const TruckDetails = () => {
               <Box size={20} color="#64748b" />
               <b>Формула</b> <span>{truck.formula}</span>
             </div>
-            <div className="spec-card">
-              <Weight size={20} color="#64748b" />
-              <b>Грузоподъемность</b> <span>{truck.load} тн</span>
-            </div>
+
+            {/* BU YERDA SHART: Agar kategoriya VII bo'lsa (Шасси), yuk ko'tarishni ko'rsatma */}
+            {truck.category !== "7" && truck.load && truck.load !== "x" && (
+              <div className="spec-card">
+                <Weight size={20} color="#64748b" />
+                <b>Грузоподъемность</b> <span>{truck.load} тн</span>
+              </div>
+            )}
           </div>
 
           {truck.package && truck.package !== "x" && (
@@ -161,11 +165,11 @@ const TruckDetails = () => {
               </div>
               <div >
                 <p>{truck.Предложения} </p>
-                <img src={truck.img2} alt="" width={235} height={"auto"}/>
+                {truck.img2 && <img src={truck.img2} alt="" width={235} height={"auto"} />}
               </div>
             </div>
 
-            {/* --- KONKURENTLAR KARTALARI (JADVAL O'RNIGA) --- */}
+            {/* --- KONKURENTLAR KARTALARI --- */}
             {truck.competitors && truck.competitors.length > 0 && (
               <div style={{ marginTop: '40px' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '20px' }}>
