@@ -93,7 +93,7 @@ const TruckDetails = () => {
                 <b>Объем кузова</b> <span>{truck.Объем_кузова}</span>
               </div>
             )}
-            
+
             {/* YANGI QO'SHILDI: Снаряженная_масса_тн (Cardlar yoniga) */}
             {truck.Снаряженная_масса_тн && truck.Снаряженная_масса_тн !== "" && (
               <div className="spec-card">
@@ -148,11 +148,13 @@ const TruckDetails = () => {
               </div>
               <p><strong>Наличие сервиса:</strong> {truck.Наличие_фирменного_сервиса}</p>
               <p><strong>Доступность запчастей:</strong> {truck.Доступность_ЗЧ}</p>
-              
-              {/* YANGI QO'SHILDI: Назначение (Mavjud list tagidan) */}
-              {truck.Назначение && (
-                <p><strong>Сфера применения (экспулатации):</strong> {truck.Назначение}</p>
-              )}
+            </div>
+
+            <div className="info-section-item" style={{ background: '#dee6f1', padding: '20px', borderRadius: '12px', border: '1px solid #d6e0ee' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px', color: '#166534' }}>
+                <CreditCard size={20} color="#22c55e" /> <strong style={{ fontSize: '18px' }}>Сфера применения (экспулатации)</strong>
+              </div>
+              <p>{truck.Назначение}</p>
             </div>
 
             <div className="info-section-item" style={{ background: '#f0fdf4', padding: '20px', borderRadius: '12px', border: '1px solid #bbf7d0' }}>
@@ -237,15 +239,19 @@ const TruckDetails = () => {
                       </div>
 
                       <div className="comp-details-text">
-                        <div className="comp-text-item">
+                        <div style={{ background: '#e7effc', padding: '5px', borderRadius: '8px', paddingLeft: '5px' }} className="comp-text-item">
+                          <strong>Комплектация</strong>
+                          {comp.package}
+                        </div>
+                        <div style={{ background: '#f0fdf4', padding: '5px', borderRadius: '8px', paddingLeft: '5px' }} className="comp-text-item">
                           <strong>Сервис и запчасти:</strong>
                           {comp.Наличие_фирменного_сервиса}. {comp.Доступность_ЗЧ}
                         </div>
-                        <div className="comp-text-item" style={{ background: '#f0fdf4', padding: '10px', borderRadius: '8px' }}>
+                        <div className="comp-text-item" style={{ background: '#fdfaf0', padding: '5px', borderRadius: '8px' }}>
                           <strong>Финансирование:</strong>
                           {comp.Финансирование_лизинг_рассрочка}
                         </div>
-                        <div className="comp-text-item">
+                        <div style={{ background: '#fdf0f2', padding: '5px', borderRadius: '8px', paddingLeft: '5px' }} className="comp-text-item">
                           <strong>Эксплуатационные свойства:</strong>
                           {comp.Эксплуатационные_свойтва}
                         </div>
