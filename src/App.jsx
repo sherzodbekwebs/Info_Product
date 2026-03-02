@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, Link, useParams, useNavigate } from 'reac
 import {
   ArrowLeft, Settings, Zap, Fuel, Gauge, Box, Weight,
   MapPin, CreditCard, Activity, TrendingDown, AlertTriangle, FileText,
-  Maximize, Scale, ArrowRightLeft
+  Maximize, Scale, ArrowRightLeft, Info // Info iconi qo'shildi
 } from 'lucide-react';
 import './App.css';
 import { TRUCKS_DATA } from './data.jsx';
@@ -21,7 +21,7 @@ const CatalogPage = () => {
     <div className="app-container">
       <div className="truck-grid">
         {filteredTrucks.map(truck => (
-          <div className="truck-card" key={truck.id} onClick={() => navigate(`/truck/${truck.id}`)} >
+          <div className="truck-card" key={truck.id} onClick={() => navigate(`/truck/${truck.id}`)}>
             <img src={truck.img} alt="img" />
             <div className="card-info"></div>
           </div>
@@ -31,7 +31,7 @@ const CatalogPage = () => {
   );
 };
 
-// --- 2-SAHIFA: TRUCK DETAILS (SHASSI UCHUN YUK KO'TARISH OLIB TASHLANDI) ---
+// --- 2-SAHIFA: TRUCK DETAILS ---
 const TruckDetails = () => {
   const { id } = useParams();
   const truck = TRUCKS_DATA.find(t => t.id === id);
@@ -48,8 +48,19 @@ const TruckDetails = () => {
 
       <div className="details-page">
         <div className="details-content">
-          <h1 style={{ fontSize: '32px', margin: '0' }}>{truck.name}</h1>
-          <div className="card-price" style={{ fontSize: '28px', margin: '15px 0' }}>{truck.price}</div>
+
+          <div style={{ marginBottom: '20px', display: 'flex', gap: "30px", flexWrap: 'wrap' }}>
+            <img
+              src={truck.img}
+              alt={truck.name}
+              style={{ maxWidth: '200px', height: 'auto', objectFit: 'contain', borderRadius: '15px', boxShadow: '0 4px 10px rgba(0,0,0,0.1)' }}
+            />
+
+            <div style={{ flex: 1, minWidth: '250px' }}>
+              <h1 style={{ fontSize: '32px', margin: '0', color: '#0f172a' }}>{truck.name}</h1>
+              <div className="card-price" style={{ fontSize: '28px', margin: '15px 0', color: '#3b82f6' }}>{truck.price}</div>
+            </div>
+          </div>
 
           <div className="spec-grid">
             {truck.engine && truck.engine !== "x" && (
@@ -82,10 +93,19 @@ const TruckDetails = () => {
                 <b>Объем кузова</b> <span>{truck.Объем_кузова}</span>
               </div>
             )}
-            {truck.Масса_снаряженного_полуприцепа && truck.Масса_снаряженного_полуприцепа !== "" && (
+            
+            {/* YANGI QO'SHILDI: Снаряженная_масса_тн (Cardlar yoniga) */}
+            {truck.Снаряженная_масса_тн && truck.Снаряженная_масса_тн !== "" && (
               <div className="spec-card">
                 <Scale size={20} color="#64748b" />
-                <b>Снаряженная масса</b> <span>{truck.Масса_снаряженного_полуприцепа}</span>
+                <b>Снаряженная масса</b> <span>{truck.Снаряженная_масса_тн} тн</span>
+              </div>
+            )}
+
+            {truck.Масса_снаряженного_полуприцеpa && truck.Масса_снаряженного_полуприцепа !== "" && (
+              <div className="spec-card">
+                <Scale size={20} color="#64748b" />
+                <b>Снаряженная масса п/п</b> <span>{truck.Масса_снаряженного_полуприцепа}</span>
               </div>
             )}
             {truck.Масса_перевозимого_груза && truck.Масса_перевозимого_груза !== "" && (
@@ -105,7 +125,6 @@ const TruckDetails = () => {
               <b>Формула</b> <span>{truck.formula}</span>
             </div>
 
-            {/* BU YERDA SHART: Agar kategoriya VII bo'lsa (Шасси), yuk ko'tarishni ko'rsatma */}
             {truck.category !== "7" && truck.load && truck.load !== "x" && (
               <div className="spec-card">
                 <Weight size={20} color="#64748b" />
@@ -129,6 +148,11 @@ const TruckDetails = () => {
               </div>
               <p><strong>Наличие сервиса:</strong> {truck.Наличие_фирменного_сервиса}</p>
               <p><strong>Доступность запчастей:</strong> {truck.Доступность_ЗЧ}</p>
+              
+              {/* YANGI QO'SHILDI: Назначение (Mavjud list tagidan) */}
+              {truck.Назначение && (
+                <p><strong>Сфера применения (экспулатации):</strong> {truck.Назначение}</p>
+              )}
             </div>
 
             <div className="info-section-item" style={{ background: '#f0fdf4', padding: '20px', borderRadius: '12px', border: '1px solid #bbf7d0' }}>
@@ -194,20 +218,20 @@ const TruckDetails = () => {
 
                         <div className="comp-spec-mini">
                           <div className="comp-mini-card">
-                            <b>Двигатель/Мощность</b>
-                            {comp.engine} / {comp.power}
+                            <b>Formula/Грузоподъемность</b>
+                            {comp.formula} / {comp.load}
                           </div>
                           <div className="comp-mini-card">
-                            <b>Топливо/Бак</b>
-                            {comp.fuel} / {comp.tank}
+                            <b>Объем кузова/Масса снаряженного полуприцепа</b>
+                            {comp.Объем_кузова} / {comp.Масса_снаряженного_полуприцеpa}
                           </div>
                           <div className="comp-mini-card">
-                            <b>Колесная формула</b>
-                            {comp.formula}
+                            <b>Масса перевозимого груза</b>
+                            {comp.Масса_перевозимого_груза}
                           </div>
                           <div className="comp-mini-card">
-                            <b>Грузоподъемность</b>
-                            {comp.load}
+                            <b>Полная масса полуприцепа</b>
+                            {comp.Полная_масса_полуприцеpa}
                           </div>
                         </div>
                       </div>
