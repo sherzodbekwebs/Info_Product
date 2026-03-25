@@ -178,12 +178,12 @@ const TruckDetails = () => {
               <p>{truck.Стоимость_владения_в_год}</p>
             </div>
 
-            <div className="info-section-item" style={{ background: '#fff1f2', padding: '20px', borderRadius: '12px', border: '1px solid #fecdd3' }}>
+            {/* <div className="info-section-item" style={{ background: '#fff1f2', padding: '20px', borderRadius: '12px', border: '1px solid #fecdd3' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px', color: '#991b1b' }}>
                 <AlertTriangle size={20} color="#e11d48" /> <strong style={{ fontSize: '18px' }}>Слабые стороны</strong>
               </div>
               <p>{truck.Слабые_стороны}</p>
-            </div>
+            </div> */}
 
             <div className="info-section-item" style={{ background: '#fdfaf1', padding: '20px', borderRadius: '12px', border: '1px solid #fef08a' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px', color: '#854d0e' }}>
@@ -196,7 +196,7 @@ const TruckDetails = () => {
             </div>
 
             {/* --- KONKURENTLAR KARTALARI --- */}
-            {truck.competitors && truck.competitors.length > 0 && (
+            {/* {truck.competitors && truck.competitors.length > 0 && (
               <div style={{ marginTop: '40px' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '20px' }}>
                   <ArrowRightLeft size={24} color="#f59e0b" />
@@ -260,7 +260,7 @@ const TruckDetails = () => {
                   ))}
                 </div>
               </div>
-            )}
+            )} */}
           </div>
         </div>
       </div>
