@@ -5,7 +5,7 @@ export const TRUCKS_DATA = [
         name: "КАМАЗ 54901-7004-СА 4х2",
         price: "932 848 000 сум",
         engine: "740.55-300",
-        power: "300 л.с.",
+        power: "460 л.с.",
         fuel: "Дизель",
         tank: "600+700 л",
         formula: "4х2",
